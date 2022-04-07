@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    color: #444;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#products td, #products th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/*Pega as linhas pares da tabela*/
+#products tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#products tbody tr:hover {
+    background-color: #ccdbdc;
+}
+
+#products > thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #07BEB8;
+    color: white;
+}
