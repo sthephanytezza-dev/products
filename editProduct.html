@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="form.css">
+        <title>View Product</title>
+    </head>
+    <body>
+        <form id="form-wrapper">
+            <div id="form-left-wrapper">
+                <div class='form-input input-medium'>
+                    <label>Product Name</label><br/>
+                    <input type='text' name='productName' placeholder='Digite o Product Name' required/>
+                </div>
+                <div class='form-input input-medium'>
+                    <label>Department</label><br/>
+                    <input type='text' name='department' placeholder='Digite o Department' required/>
+                </div>
+                <div class='form-input input-small'>
+                    <label>Product Adjective</label><br/>
+                    <input type='text' name='productAdjective' placeholder='Digite o Product Adjective' required/>
+                </div>
+                <div class='form-input input-small'>
+                    <label>Product Material</label><br/>
+                    <input type='text' name='productMaterial' placeholder='Digite o Product Material' required/>
+                </div>
+                <div class='form-input input-small'>
+                    <label>Product</label><br/>
+                    <input type='text' name='product' placeholder='Digite o Product' required/>
+                </div>
+                <div class='form-input input-large'>
+                    <label>Product Description</label><br/>
+                    <textarea name="productDescription" placeholder="Digite o Product Description" required></textarea>
+                </div>
+                <div class='form-input input-smaller'>
+                    <label>Price</label><br/>
+                    <input type='text' name='price' placeholder='Digite o Price' required/>
+                </div>
+                <div class='form-input input-smaller'>
+                    <label>Product Quantity</label><br/>
+                    <input type='text' name='productQuantity' placeholder='Digite o Product Quantity' required/>
+                </div>
+                <div class='form-input input-smaller'>
+                    <label>Minimun Quantity</label><br/>
+                    <input type='text' name='minimunQuantity' placeholder='Digite o Minimun Quantity' required/>
+                </div>
+                <div class='form-input input-smaller'>
+                    <label>Total Value</label><br/>
+                    <input type='text' name='totalValue' readonly required/>
+                </div>
+                <div class='form-input input-medium'>
+                    <label>Created_at</label><br/>
+                    <input type='text' name='created_at' placeholder='Digite o Created_At'  required/>
+                </div>
+                <div class='form-input input-medium'>
+                    <label>Update_at</label><br/>
+                    <input type='text' name='updated_at' placeholder='Digite o Update_At' required/>
+                </div>
+
+                <div id="form-submit">
+                    <input type="button" value="Voltar" class="back" onClick="voltar()"> 
+                    <button class="edit">Editar</button>
+                </div>
+            </div>
+
+            <script type='text/javascript' src="js/editProduct.js"></script>
+        </form>
+    </body>
+</html>

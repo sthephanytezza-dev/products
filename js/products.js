@@ -13,6 +13,10 @@ const renderHead = async () => {
     head_div.innerHTML = template;
 }
 
+const redireciona = (id) => {
+    window.location.replace(`/editProduct.html?id=${id}`);
+}
+
 const renderBody = async () => {
     const url = "http://localhost:3000/products";
     const products = await fetch(url).then((response) => response.json());
@@ -25,7 +29,7 @@ const renderBody = async () => {
     });
 
     products.forEach((product) => {
-        template += `<tr>
+        template += `<tr onclick='redireciona(${product.id})'>
             <td>${product.id}</td>
             <td>${product.department}</td>
             <td>${product.productName}</td>
