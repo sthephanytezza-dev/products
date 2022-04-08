@@ -35,3 +35,23 @@ body{
     background-color: #07BEB8;
     color: white;
 }
+
+.cards{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+}
+
+.card{
+    margin-top: 20px;
+    font-size: 12px;
+    height: 250px;
+}
+
+.cards table{
+	margin: 0 auto;
+    width: 250px;
+} 
