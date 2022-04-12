@@ -16,36 +16,6 @@
       "id": 1
     },
     {
-      "productName": "2",
-      "department": "Automotive",
-      "price": "523.00",
-      "productAdjective": "Awesome",
-      "productMaterial": "Wooden",
-      "product": "Tuna",
-      "productDescription": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-      "productQuantity": "643",
-      "minimunQuantity": "78",
-      "totalValue": "336289",
-      "created_at": "2022-04-06 12:53:24",
-      "updated_at": "2022-04-06 12:53:24",
-      "id": 2
-    },
-    {
-      "id": 3,
-      "department": "Shoes",
-      "productName": "Small Concrete Cheese",
-      "price": "355.00",
-      "productAdjective": "Small",
-      "productMaterial": "Cotton",
-      "product": "Car",
-      "productDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-      "productQuantity": 685,
-      "minimunQuantity": 66,
-      "totalValue": null,
-      "created_at": "2022-04-06 12:53:24",
-      "updated_at": "2022-04-06 12:53:24"
-    },
-    {
       "id": 4,
       "department": "Outdoors",
       "productName": "Practical Granite Table",
@@ -76,19 +46,19 @@
       "updated_at": "2022-04-06 12:53:24"
     },
     {
-      "id": 6,
-      "department": "Electronics",
       "productName": "Rustic Granite Cheese",
+      "department": "Electronics",
       "price": "997.00",
       "productAdjective": "Incredible",
       "productMaterial": "Soft",
       "product": "Chair",
       "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-      "productQuantity": 552,
-      "minimunQuantity": 61,
-      "totalValue": null,
+      "productQuantity": "552",
+      "minimunQuantity": "61",
+      "totalValue": "550344",
       "created_at": "2022-04-06 12:53:24",
-      "updated_at": "2022-04-06 12:53:24"
+      "updated_at": "2022-04-06 12:53:24",
+      "id": 6
     },
     {
       "id": 7,
@@ -106,49 +76,49 @@
       "updated_at": "2022-04-06 12:53:24"
     },
     {
-      "id": 8,
-      "department": "Kids",
       "productName": "Fantastic Wooden Chips",
+      "department": "Kids",
       "price": "760.00",
       "productAdjective": "Handmade",
       "productMaterial": "Concrete",
       "product": "Chicken",
       "productDescription": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "productQuantity": 599,
-      "minimunQuantity": 56,
-      "totalValue": null,
+      "productQuantity": "599",
+      "minimunQuantity": "56",
+      "totalValue": "455240",
       "created_at": "2022-04-06 12:53:24",
-      "updated_at": "2022-04-06 12:53:24"
+      "updated_at": "2022-04-06 12:53:24",
+      "id": 8
     },
     {
-      "id": 9,
-      "department": "Books",
       "productName": "Handcrafted Wooden Shoes",
+      "department": "Books",
       "price": "935.00",
       "productAdjective": "Small",
       "productMaterial": "Plastic",
       "product": "Bike",
       "productDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-      "productQuantity": 901,
-      "minimunQuantity": 39,
-      "totalValue": null,
+      "productQuantity": "901",
+      "minimunQuantity": "39",
+      "totalValue": "842435",
       "created_at": "2022-04-06 12:53:24",
-      "updated_at": "2022-04-06 12:53:24"
+      "updated_at": "2022-04-06 12:53:24",
+      "id": 9
     },
     {
-      "id": 10,
-      "department": "Games",
       "productName": "Refined Cotton Chair",
+      "department": "Games",
       "price": "636.00",
       "productAdjective": "Handmade",
       "productMaterial": "Frozen",
       "product": "Shoes",
       "productDescription": "The Football Is Good For Training And Recreational Purposes",
-      "productQuantity": 908,
-      "minimunQuantity": 40,
-      "totalValue": null,
+      "productQuantity": "908",
+      "minimunQuantity": "40",
+      "totalValue": "577488",
       "created_at": "2022-04-06 12:53:24",
-      "updated_at": "2022-04-06 12:53:24"
+      "updated_at": "2022-04-06 12:53:24",
+      "id": 10
     },
     {
       "id": 11,
@@ -181,34 +151,34 @@
       "updated_at": "2022-04-06 12:53:24"
     },
     {
-      "id": 13,
-      "department": "Baby",
       "productName": "Intelligent Steel Chicken",
+      "department": "Baby",
       "price": "51.00",
       "productAdjective": "Rustic",
       "productMaterial": "Metal",
       "product": "Salad",
       "productDescription": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-      "productQuantity": 325,
-      "minimunQuantity": 94,
-      "totalValue": null,
+      "productQuantity": "325",
+      "minimunQuantity": "94",
+      "totalValue": "16575",
       "created_at": "2022-04-06 12:53:24",
-      "updated_at": "2022-04-06 12:53:24"
+      "updated_at": "2022-04-06 12:53:24",
+      "id": 13
     },
     {
-      "id": 14,
-      "department": "Tools",
       "productName": "Handmade Metal Fish",
+      "department": "Tools",
       "price": "282.00",
       "productAdjective": "Handcrafted",
       "productMaterial": "Soft",
       "product": "Bacon",
       "productDescription": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-      "productQuantity": 539,
-      "minimunQuantity": 58,
-      "totalValue": null,
+      "productQuantity": "539",
+      "minimunQuantity": "58",
+      "totalValue": "151998",
       "created_at": "2022-04-06 12:53:24",
-      "updated_at": "2022-04-06 12:53:24"
+      "updated_at": "2022-04-06 12:53:24",
+      "id": 14
     },
     {
       "id": 15,
@@ -586,19 +556,19 @@
       "updated_at": "2022-04-06 12:53:24"
     },
     {
-      "id": 40,
-      "department": "Shoes",
       "productName": "Refined Fresh Shoes",
+      "department": "Shoes",
       "price": "789.00",
       "productAdjective": "Unbranded",
       "productMaterial": "Soft",
       "product": "Bacon",
       "productDescription": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "productQuantity": 188,
-      "minimunQuantity": 4,
-      "totalValue": null,
+      "productQuantity": "188",
+      "minimunQuantity": "4",
+      "totalValue": "148332",
       "created_at": "2022-04-06 12:53:24",
-      "updated_at": "2022-04-06 12:53:24"
+      "updated_at": "2022-04-06 12:53:24",
+      "id": 40
     },
     {
       "id": 41,
@@ -1499,6 +1469,21 @@
       "totalValue": null,
       "created_at": "2022-04-06 12:53:24",
       "updated_at": "2022-04-06 12:53:24"
+    },
+    {
+      "productName": "mamao papaia",
+      "department": "fruta",
+      "price": "10",
+      "productAdjective": "comestivel",
+      "productMaterial": "Organico",
+      "product": "mamao",
+      "productDescription": "mamao perecível",
+      "productQuantity": "200",
+      "minimunQuantity": "30",
+      "totalValue": "2000",
+      "created_at": "02-02-2022",
+      "updated_at": "02-02-2022",
+      "id": 101
     }
   ]
 }

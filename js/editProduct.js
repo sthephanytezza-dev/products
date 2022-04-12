@@ -2,6 +2,7 @@ const id = new URLSearchParams(window.location.search).get("id");
 
 const form = document.getElementById("form-wrapper");
 const edit_btn = document.querySelector(".edit");
+const delete_btn = document.querySelector(".delete");
 
 const renderProduct = async () => {
     const url = "http://localhost:3000/products/" + id;
@@ -52,5 +53,22 @@ const editProduct = async (e) => {
 
 }
 
+const deleteProduct = () => {
+    try{
+        const url = "http://localhost:3000/products/" + id;
+        const validation = confirm("Deseja deletar esse produto?");
+        
+        if(validation){
+            fetch(url, {
+                method: 'DELETE',
+            });
+            window.location.replace("/tableProduct.html");
+        }
+    } catch(error){
+        console.error(error);
+    };
+}
+
 form.addEventListener("submit", editProduct);
+delete_btn.addEventListener("click", () => deleteProduct());
 window.addEventListener("DOMContentLoaded", () => renderProduct());

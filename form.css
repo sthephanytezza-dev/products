@@ -64,24 +64,27 @@ textarea {
 }
 
 button {
-    background-color: #07BEB8;
     border: none;
     border-radius: 3px;
     padding: 10px;
     color: white;
     cursor: pointer;
-    width: 20%;
     margin-top: 20px;
+}
+
+.edit{
+    background-color: #07BEB8;
+    width: 5%;
 }
 
 .back{
     background-color: gray;
-    border: none;
-    border-radius: 3px;
-    padding: 10px;
-    color: white;
-    cursor: pointer;
-    width: 20%;
-    margin-top: 20px;
-    margin-right: 20px;
+    width: 5%;
+    margin-right: 10px;
+}
+
+.delete{
+    background-color: red;
+    width: 5%;
+    margin-left: 10px;
 }
