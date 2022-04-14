@@ -7,6 +7,26 @@
         <link rel="stylesheet" href="./style.css" />
         <title>Table Product</title>
     </head>
+    <nav>
+        <div class="header">
+            <h1>Tabela de produtos</h1>
+        
+            <div class="search_box">
+                <select class="category">
+                    <option selected disabled value="default">Selecione uma categoria</option>
+                    <option value="department">department</option>
+                    <option value="productAdjective">productAdjective</option>
+                    <option value="productMaterial">productMaterial</option>
+                    <option value="product">product</option>
+                  </select>
+                <input type="text" id="search_input" placeholder="Filtrar na tabela por um nome">
+                <div class="buttons">
+                    <button class="filter">Filtrar</button>
+                    <button class="clean">Limpar</button>
+                </div>
+            </div>
+        </div>
+    </nav>
     <body>
         <table id="products">
             <thead class="products-head">

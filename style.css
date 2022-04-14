@@ -12,6 +12,77 @@ body{
     padding: 10px;
 }
 
+.header {
+    background: #07BEB8;
+}
+  
+.header > h1 {
+    padding: 50px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+}
+  
+.search_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    background: #07BEB8;
+    margin: 0 auto;
+    padding: 25px 30px 30px;
+    border-radius: 3px;
+}
+  
+.search_box input {
+    border: 0;
+    border-bottom: 2px solid #e5edfa;
+    width: 25%;
+    outline: none;
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: #e5edfa;
+}
+
+.category {
+    background-color: #05827d;
+    color: #fff;
+    font-size: 16px;
+    padding: .5em;
+    border: 0;
+    margin: 0;
+    border-radius: 3px;
+    width: 25%;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    color: #05827d;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 40%;
+}
+
+.buttons{
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+.clean{
+    background-color: #05827d;
+    color: white;
+}
+
 #products td, #products th {
     border: 1px solid #ddd;
     padding: 8px;
